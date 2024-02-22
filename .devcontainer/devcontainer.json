@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "Debian",
+    "build": {
+		"context": "..",
+        "dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mechatroner.rainbow-csv",
+				"ms-python.python",
+				"shd101wyy.markdown-preview-enhanced",
+				"ms-azuretools.vscode-docker",
+				"pomdtr.excalidraw-editor",
+				"ms-python.mypy-type-checker",
+				"charliermarsh.ruff",
+				"ms-python.pylint",
+				"tamasfe.even-better-toml",
+				"mhutchie.git-graph",
+				"donjayamanne.git-extension-pack",
+				"cweijan.vscode-myssql-client2",
+				"Continue.continue",
+				"ms-toolsai.datawrangler",
+				"streetsidesoftware.code-spell-checker",
+				"ms-toolsai.jupyter",
+				"antfu.slidev",
+				"fcrespo82.markdown-table-formatter"
+			]
+		}
+	}
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

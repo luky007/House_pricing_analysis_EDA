@@ -1,0 +1,43 @@
+{
+    //
+    //- ruff
+    "ruff.fixAll": false,
+    "ruff.organizeImports": true,
+    //
+    //- python
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit",
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    //
+    //- misc
+    "editor.accessibilitySupport": "off",
+    "workbench.localHistory.maxFileSize": 256,
+    "workbench.localHistory.maxFileEntries": 500,
+    "workbench.colorCustomizations": {
+        "statusBar.border": "#cf16a4",
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    },
+    "cSpell.words": [
+        "airconditioning",
+        "arithmatex",
+        "coloredlogs",
+        "dotenv",
+        "furnishingstatus",
+        "hotwaterheating",
+        "inlinehilite",
+        "jupyterlab",
+        "linenums",
+        "mainroad",
+        "mkdocstrings",
+        "prefarea",
+        "pymdownx",
+        "superfences",
+        "varchar"
+    ]
+}

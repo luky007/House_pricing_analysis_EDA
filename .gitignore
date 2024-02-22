@@ -1,0 +1,4 @@
+.mrx-link-logs/
+scr/jupyter/.ipynb_checkpoints/
+slidev/
+.env
